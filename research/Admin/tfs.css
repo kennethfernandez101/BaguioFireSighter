@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+
+/* whole system */
+
+h2 {color:#FF0;}
+h1, h2 {margin:0px;padding:0px}
+h1 {color:#FFF;}
+html {background-color:#003;}
+body {width:1200px; height:auto; font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; margin:auto; background:#036;background-position:center; background-size:cover; background-repeat:no-repeat;}
+.menu {background-color:#000;  width:1200px; color:#FFF; height:50px; padding-bottom:8px;}
+div {float:left;}
+.logo {margin-top: 3px;margin-left:3px; clear:both}
+.headerbackground {overflow:hidden; width:1200px; margin:auto; font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; height:auto; background-color:#006;}
+.ht {float:left;margin-top:20px; margin-left:3px;}
+.menu nav ul li a {padding: 8px 16px; margin-top:20px; margin-right:25px;text-decoration:none;  font-family:CCBackBeat; color:#FFF; font-size:20px;}
+.menu nav ul li  { margin-top:20px; list-style:none; display:inline; }
+.menu nav{color: #000; margin:20px 0px;}
+.menu nav ul li a:hover {background:#009; color:#FF0;}
+.menu nav ul li .active {background:#009; color:#FF0;}
+.menu {clear:left; float:left}
+footer{clear:both; color:#FFF;font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; border-style:thin; border-width:4px; border-color: #000; width:100%; background-color:#00C; margin-bottom:10px;}
+.foot { text-align:center; margin:0px; padding:0px;}
+nav ul li {font: bold 12px/18px sans-serif;display: inline-block;margin-right: -4px;position: relative;padding: 10px 20px;	cursor: pointer;}
+nav ul li:hover {color: #FFF;}
+nav ul li ul {padding: 0;position: absolute; top: 38px;left: 0;width: 300px; display: none; visibility: hidden;}
+nav ul li ul li {display: block; color: #fff;}
+nav ul li:hover ul {display: block;visibility: visible;}
+/* whole system */
+
+
+
+
+/*loginpage.php*/
+.login{float:right}
+.loginwrap {background-color:#30C; border-radius:20px; margin-top:50px; margin-left:40%;}
+.login {margin-left:10px;}
+/*loginpage.php*/
+
+/*report,editpage,viewreports.php*/
+.forms{color:#FFF; margin-left:250px;}
+.viewing {margin-top:8px;padding-bottom:8px ; padding-right:8px; padding-left:8px; color:#FFF}
+table, th, td{border: 1px solid white;border-collapse: collapse;}
+.form_container {width:100%;padding:2% 3%; width: 60%;margin: 2% 1%;text-indent: 2%; border: 3px solid black; margin-left:200px;border-color:#00C; border-radius:30px; color:#FFF}
+.container {clear:left; }
+form input[type=text], input[type=number], select{font-size: 1.143 em;padding: 0.5% 0.5%;width: 250px;}
+#civilian_id{margin-left:269px;margin-top:20px;}
+form input[type=date], input[type=submit], input[type=reset], input[type=text], input[type=number], select{font-size: 1.143 em;padding: 0.5% 0.5%;}
+label{width:250px;float:left;margin-left: 5px;text-align:right;}
+.sub{margin-left:280px;}
+.backbutton{text-decoration:none;  font-family:CCBackBeat; color:#FFF; font-size:20px;
+list-style:none; display:inline;}
+#subb {margin-top:10px}
+input[type=submit], input[type=reset]{width: 100px;}
+ .view li, a {text-decoration:none;  font-family:CCBackBeat; width:200px; color:#FFF; font-size:20px; }
+ .view {margin-left:265px;}
+ .back{margin-left:500px;}
+/*report,editpage,viewreports.php*/
+
+
+/*about us page*/
+.vmh {color:#FFF}
+.abtus{text-indent: 2%; border: 3px solid black;border-color:#00C; border-radius:30px; color:#FFF}
+/*about us page*/
+
+
+	
+
+
+
+
+
+
+
